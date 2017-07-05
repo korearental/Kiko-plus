@@ -186,32 +186,32 @@ share: true
 
     3)  Install Ubuntu를 선택한다. (실제 디스크에 설치하는 과정)
 
-<img src="/images/install_professional/media/image2.png" width="412" height="302" />
+<img src="/images/install_professional/media/image2.png" width="600" />
 
     4)  와이파이 모양 아이콘 -&gt; Edit Connections를 누른다. (Ethernet 리스트는 하드웨어 스펙에 따라 상이함)
 
-<img src="/images/install_professional/media/image3.png" width="404" height="302" />
+<img src="/images/install_professional/media/image3.png" width="600"  />
 
     5)  Wired connection 1을 선택하고 Edit 버튼을 누른다.
 
     6)  Editing Wired connection 1 창에서 IPv4 Settings 탭으로 이동한다.
 
-<img src="/images/install_professional/media/image4.png" width="402" height="302" />
+<img src="/images/install_professional/media/image4.png" width="600" />
 
     7)  Method를 Manual로 변경하고 Add버튼을 눌러 Address, Network, Gateway, DNS servers를 입력한다. (아이피 정보는 네트워크 환경에 따라 상이함)
 
-<img src="/images/install_professional/media/image5.png" width="403" height="302" />
+<img src="/images/install_professional/media/image5.png" width="600"  />
 
 
     8)  저장 버튼을 눌러 인터넷에 연결되는지 체크한다.
 
     9)  인터넷이 연결되었다면 Continue 버튼을 누른다.
 
-<img src="/images/install_professional/media/image6.png" width="350" height="262" />
+<img src="/images/install_professional/media/image6.png" width="600" />
 
     10)  Something else를 누르고 Continue 버튼을 누른다.
 
-<img src="/images/install_professional/media/image7.png" width="344" height="258" />
+<img src="/images/install_professional/media/image7.png" width="600" />
 
     11)  우분투를 설치 할 /dev/sda1(100G)를 선택하고 Change를 누른다.
 
@@ -219,15 +219,15 @@ share: true
 
     13)  /dev/sda1을 제외한 나머지 파티션은 기억한다. (/dev/sdb와 같이 숫자로 끝나지 않는 것은 뺌)
 
-<img src="/images/install_professional/media/image8.png" width="384" height="287" />
+<img src="/images/install_professional/media/image8.png" width="600" />
 
     14)  /dev/sda1을 선택하고 인스톨을 시작한다.
 
     15)  이어서 나오는 Do you want to return to the partitioning menu? / Do you want to return to the partitioner? 에서는 모두 Continue를 선택한다.
 
-<img src="/images/install_professional/media/image9.png" width="403" height="302" />
+<img src="/images/install_professional/media/image9.png" width="600" />
 
-<img src="/images/install_professional/media/image10.png" width="405" height="302" />
+<img src="/images/install_professional/media/image10.png" width="600"  />
 
     16)  이어서 나오는 지역 설정, 키보드 설정은 default 값으로 한다.
 
@@ -235,7 +235,7 @@ share: true
 
     18)  사용자 계정은 우분투 로그인할 때 사용되니 반드시 기억한다.
 
-<img src="/images/install_professional/media/image11.png" width="468" height="349" />
+<img src="/images/install_professional/media/image11.png" width="600" />
 
     19)  재 부팅 후 BIOS 설정에서 부팅 순서를 HDD 부팅이 1순위로 변경한다.
 --------------
@@ -250,7 +250,7 @@ share: true
 
     4)  이어서 \[1\] Install Database를 선택한다.
 
-<img src="/images/install_professional/media/image12.png" width="423" height="268" />
+<img src="/images/install_professional/media/image12.png" width="600" />
 
 ### 4.3 MMS(=local server)로의 접근권한 부여
 
@@ -264,7 +264,7 @@ share: true
 
     5)  Local server ip, 유저명, 암호를 입력한다.
 
-<img src="/images/install_professional/media/image13.png" width="489" height="300" />
+<img src="/images/install_professional/media/image13.png" width="600" />
 
 ## 5. BMS 서버 설치
 
@@ -283,14 +283,14 @@ share: true
 
     2)  \# python /Diskless\_Installer/installer.py
 
-<img src="/images/install_professional/media/image14.png" width="462" height="293" />
+<img src="/images/install_professional/media/image14.png" width="600" />
 
 
     3)  \[2\] Install Diskless Server 를 선택한다.
 
     4)  데이터베이스 서버 주소 입력 한다.
 
-<img src="/images/install_professional/media/image15.png" width="482" height="306" />
+<img src="/images/install_professional/media/image15.png" width="600" />
 
     5)  로컬서버 사용자 이름 입력 한다.
 
@@ -309,31 +309,31 @@ share: true
 
 2)  **설치 Step 1** &gt; Connecting Internet
 
-<img src="/images/install_professional/media/image16.png" width="430" height="294" />
+<img src="/images/install_professional/media/image16.png" width="600" />
 
 3)  설치 Step 2&gt; Installing server
 
-<img src="/images/install_professional/media/image17.png" width="533" height="378" />
+<img src="/images/install_professional/media/image17.png" width="600"/>
 
 4)  부팅 서버 입력란에 정보 입력 한다.
 
 5)  로컬서버 입력란에 실제 로컬서버의 개수만큼 추가 하여 작성 한다.
 
-<img src="/images/install_professional/media/image18.png" width="490" height="451" />
+<img src="/images/install_professional/media/image18.png" width="600" />
 
 6)  DHCP 정보 입력 한다.
 
-<img src="/images/install_professional/media/image19.png" width="490" height="351" />
+<img src="/images/install_professional/media/image19.png" width="600" />
 
 7)  설치 준비 완료 되면 설치 시작 된다.
 
-<img src="/images/install_professional/media/image20.png" width="494" height="357" />
+<img src="/images/install_professional/media/image20.png" width="600" />
 
-<img src="/images/install_professional/media/image21.png" width="424" height="310" />
+<img src="/images/install_professional/media/image21.png" width="600" />
 
-<img src="/images/install_professional/media/image22.png" width="426" height="307" />
+<img src="/images/install_professional/media/image22.png" width="600" />
 
-<img src="/images/install_professional/media/image23.png" width="428" height="306" />
+<img src="/images/install_professional/media/image23.png" width="600" />
 
 ## 6. MMS 서버 (=local server) 설치
 
@@ -353,7 +353,7 @@ share: true
 
 -   운영체제를 설치할 디스크를 미리 지정하는 작업이 수반된다.
 
-<img src="/images/install_professional/media/image24.png" width="412" height="302" />
+<img src="/images/install_professional/media/image24.png" width="600" />
 
 3)  GParted Partition Editor를 실행한다.
 
@@ -367,30 +367,30 @@ share: true
 
     -   GParted Partition Editor 창의 메뉴에서 View -&gt; Device Information을 선택하면 아래와 같은 화면이 나타난다. (각 항목의 구체적인 수치는 하드웨어 스펙에 따라 상이함)
 
-<img src="/images/install_professional/media/image25.png" width="402" height="302" />
+<img src="/images/install_professional/media/image25.png" width="600" />
 
 4)  Device -&gt; Create Partition Table을 실행하여 partition table 타입을 msdos로 변경한다.
     - 이는 /dev/sda, /dev/sdb 등 서버에 장착된 모든 디스크에 실행한다.
 
-<img src="/images/install_professional/media/image26.png" width="403" height="302" />
+<img src="/images/install_professional/media/image26.png" width="600" />
 
 5)  /dev/sda 디스크에 우분투를 설치할 100G 파티션(filesystem은 ext4)을 할당한다.
 
-<img src="/images/install_professional/media/image27.png" width="403" height="297" />
+<img src="/images/install_professional/media/image27.png" width="600" />
 
 6)  /dev/sda 디스크의 나머지 공간은 하나의 파티션으로 할당한다.
 
     -  /dev/sda 디스크에 파티션을 할당하면 아래와 같은 화면이 나타난다.
 
-<img src="/images/install_professional/media/image28.png" width="401" height="302" />
+<img src="/images/install_professional/media/image28.png" width="600" />
 
 7)  /dev/sda를 제외한 서버에 장착된 나머지 디스크의 파티션은 통으로 할당한다.
 
-<img src="/images/install_professional/media/image29.png" width="405" height="302" />
+<img src="/images/install_professional/media/image29.png" width="600" />
 
 8)  Apply를 눌러 지금까지의 파티션 변경사항을 저장한다.
 
-<img src="/images/install_professional/media/image30.png" width="405" height="302" />
+<img src="/images/install_professional/media/image30.png" width="600" />
 
 9)  컴퓨터를 재부팅한다.
 
@@ -403,32 +403,32 @@ share: true
 
 3)  Install Ubuntu를 선택한다. (실제 디스크에 설치하는 과정)
 
-<img src="/images/install_professional/media/image2.png" width="412" height="302" />
+<img src="/images/install_professional/media/image2.png" width="600" />
 
 4)  와이파이 모양 아이콘 -&gt; Edit Connections를 누른다. (Ethernet 리스트는 하드웨어 스펙에 따라 상이함)
 
-<img src="/images/install_professional/media/image3.png" width="404" height="302" />
+<img src="/images/install_professional/media/image3.png" width="600" />
 
 5)  Wired connection 1을 선택하고 Edit 버튼을 누른다.
 
 6)  Editing Wired connection 1 창에서 IPv4 Settings 탭으로 이동한다.
 
-<img src="/images/install_professional/media/image4.png" width="402" height="302" />
+<img src="/images/install_professional/media/image4.png" width="600" />
 
 7)  Method를 Manual로 변경하고 Add버튼을 눌러 Address, Network, Gateway, DNS servers를 입력한다. (아이피 정보는 네트워크 환경에 따라 상이함)
 
-<img src="/images/install_professional/media/image5.png" width="403" height="302" />
+<img src="/images/install_professional/media/image5.png" width="600" />
 
 
 8)  저장 버튼을 눌러 인터넷에 연결되는지 체크한다.
 
 9)  인터넷이 연결되었다면 Continue 버튼을 누른다.
 
-<img src="/images/install_professional/media/image6.png" width="350" height="262" />
+<img src="/images/install_professional/media/image6.png" width="600" />
 
 10)  Something else를 누르고 Continue 버튼을 누른다.
 
-<img src="/images/install_professional/media/image7.png" width="344" height="258" />
+<img src="/images/install_professional/media/image7.png" width="600" />
 
 
 11)  우분투를 설치 할 /dev/sda1(100G)를 선택하고 Change를 누른다.
@@ -437,15 +437,15 @@ share: true
 
 13) /dev/sda1을 제외한 나머지 파티션은 기억한다. (/dev/sdb와 같이 숫자로 끝나지 않는 것은 뺌)
 
-<img src="/images/install_professional/media/image8.png" width="384" height="287" />
+<img src="/images/install_professional/media/image8.png" width="600" />
 
 14) /dev/sda1을 선택하고 인스톨을 시작한다.
 
 15) 이어서 나오는 Do you want to return to the partitioning menu? / Do you want to return to the partitioner? 에서는 모두 Continue를 선택한다.
 
-<img src="/images/install_professional/media/image9.png" width="403" height="302" />
+<img src="/images/install_professional/media/image9.png" width="600" />
 
-<img src="/images/install_professional/media/image10.png" width="405" height="302" />
+<img src="/images/install_professional/media/image10.png" width="600" />
 
 16) 이어서 나오는 지역 설정, 키보드 설정은 default 값으로 한다.
 
@@ -453,7 +453,7 @@ share: true
 
 18) 사용자 계정은 우분투 로그인할 때 사용되니 반드시 기억한다.
 
-<img src="/images/install_professional/media/image11.png" width="468" height="349" />
+<img src="/images/install_professional/media/image11.png" width="600" />
 
 19) 재 부팅 후 BIOS 설정에서 부팅 순서를 HDD 부팅이 1순위로 변경한다.
 
@@ -463,11 +463,11 @@ share: true
 
     2)  아래 명령어를 실행한다
 
-    <img src="/images/install_professional/media/image31.png" width="588" height="121" />
+    <img src="/images/install_professional/media/image31.png" width="600" />
 
     3)  Installer 실행
 
-    <img src="/images/install_professional/media/image32.png" width="587" height="96" />
+    <img src="/images/install_professional/media/image32.png" width="600" />
 
     4)  아래 명령어를 실행한다
 
@@ -475,16 +475,16 @@ share: true
 
     6.  부팅서버에서 설정하였던 로컬서버 이름 및 IP 값 입력한다.
 
-<img src="/images/install_professional/media/image33.png" width="592" height="126" />
+<img src="/images/install_professional/media/image33.png" width="600" />
 
     7.  데이터 베이스 IP 주소를 입력 한다. (프록시 서버 추가 시 프록시 서버 주소 값 입력)
 
-<img src="/images/install_professional/media/image34.png" width="581" height="165" />
+<img src="/images/install_professional/media/image34.png" width="600" />
 
     8.  디스크 풀 확인 맞으면 “Y” 입력한다.
 
-    <img src="/images/install_professional/media/image35.png" width="642" height="335" />
-    <img src="/images/install_professional/media/image36.png" width="642" height="224" />
+    <img src="/images/install_professional/media/image35.png" width="600" />
+    <img src="/images/install_professional/media/image36.png" width="600" />
 
     9.  설치 완료되면 컴퓨터 재부팅 한다.
 
@@ -497,7 +497,7 @@ share: true
 
 >   \#&gt; mysql -uroot -p -h ‘DB서버의 아이피 주소’
 
-<img src="/images/install_professional/media/image37.png" width="589" height="373" />
+<img src="/images/install_professional/media/image37.png" width="600" />
 
 2)  Host ‘host의 ip 주소’ is not allow this MariaDB server 메시지 출력될 경우
 
@@ -509,23 +509,23 @@ share: true
 
 >  \#&gt;python /Diskless\_Installer/installer.py
 
-> <img src="/images/install_professional/media/image38.png" width="396" height="251" />
+> <img src="/images/install_professional/media/image38.png" width="600" />
 
 5)  \[1\] Install Database를 선택한다.
 
 6)  \[2\] Grant Access to Local Server를 선택한다.
 
-<img src="/images/install_professional/media/image39.png" width="401" height="244" />
+<img src="/images/install_professional/media/image39.png" width="600" />
 
 7)  local server’s ip address, username, and username’s password 를 입력한다.
 
-<img src="/images/install_professional/media/image40.png" width="394" height="238" />
+<img src="/images/install_professional/media/image40.png" width="600" />
 
 8)  아래 명령어를 실행하여 DB연결상태를 재 확인한다.
 
 >  \#&gt; mysql -uroot -p -h ‘DB 서버의 IP주소’
 
-<img src="/images/install_professional/media/image41.png" width="498" height="295" />
+<img src="/images/install_professional/media/image41.png" width="600" />
 
 9)  성공하면 위와 같은 화면이 출력되며 이어서 설치를 진행하면 된다.
 
@@ -533,8 +533,8 @@ share: true
 
 1)  GPartition을 실행한다
 
-<img src="/images/install_professional/media/image42.png" width="442" height="279" />
+<img src="/images/install_professional/media/image42.png" width="600" />
 
 2)  모든 파티션 테이블이 “msdos”로 설정되어 있는지 확인한다.
 
-<img src="/images/install_professional/media/image43.png" width="516" height="327" />
+<img src="/images/install_professional/media/image43.png" width="600" />
