@@ -91,12 +91,12 @@ share: true
 
 -   개인정보가 맞을 경우 아이디의 3자리를 알 수 있다.
 <p align="center">
-<img src="/images/admin_manual/media/image4.png" width="600"  />
+<img src="/images/admin_manual/media/image4.png" width="600"  /><br>
 <span id="_Toc430948859" class="anchor"></span>그림 2 아이디 찾기 화면
 </p>
 
 <p align="center">
-<img src="/images/admin_manual/media/image5.png" width="600" />
+<img src="/images/admin_manual/media/image5.png" width="600" /><br>
 <span id="_Toc430948860" class="anchor"></span>그림 3 아이디 찾기 화면2
 </p>
 
@@ -119,11 +119,11 @@ share: true
 -   개인정보가 같은 경우, 등록된 e-mail로 새 비밀번호 전송
 
 <p align="center">
-<img src="/images/admin_manual/media/image6.png" width="600"  />
+<img src="/images/admin_manual/media/image6.png" width="600"  /><br>
 <span id="_Toc430948861" class="anchor"></span>그림 4 비밀번호 찾기 화면
 </p>
 <p align="center">
-<img src="/images/admin_manual/media/image7.png" width="600" />
+<img src="/images/admin_manual/media/image7.png" width="600" /><br>
 <span id="_Toc430948862" class="anchor"></span>그림 5 비밀번호 찾기 화면2
 </p>
 
@@ -138,7 +138,7 @@ share: true
 -   관리자 등록, 삭제, 편집 기능
 
 <p align="center">
-<img src="/images/admin_manual/media/image8.png" width="600" />
+<img src="/images/admin_manual/media/image8.png" width="600" /><br>
 <span id="_Toc430948863" class="anchor"></span>그림 6 관리자 관리 화면
 </p>
 
@@ -163,7 +163,7 @@ share: true
 -   이름, 생년월일, e-mail은 아이디 찾기 및 비밀번호 찾기 시 필수항목
 
 <p align="center">
-<img src="/images/admin_manual/media/image9.png" width="600" />
+<img src="/images/admin_manual/media/image9.png" width="600" /><br>
 <span id="_Toc430948864" class="anchor"></span>그림 7 관리자 등록 화면
 </p>
 
@@ -178,7 +178,7 @@ share: true
 -   비밀번호 입력 안하고 저장 할 경우 비밀번호 변경 안됨
 
 <p align="center">
-<img src="/images/admin_manual/media/image10.png" width="600" />
+<img src="/images/admin_manual/media/image10.png" width="600" /><br>
 <span id="_Toc430948865" class="anchor"></span>그림 8 관리자 편집 화면
 </p>
 
@@ -193,7 +193,7 @@ share: true
 -   월 클릭 시 일 별, 일 클릭 시 시간 별 확인 가능
 
 <p align="center">
-<img src="/images/admin_manual/media/image11.png" width="600" />
+<img src="/images/admin_manual/media/image11.png" width="600" /><br>
 <span id="_Toc430948878" class="anchor"></span>그림 21 Dash Board 화면
 </p>
 
@@ -204,7 +204,7 @@ share: true
 -   DHCP 정보, 서버 정보 및 서버 상태 표시
 
 <p align="center">
-<img src="/images/admin_manual/media/image12.png" width="600" />
+<img src="/images/admin_manual/media/image12.png" width="600" /><br>
 <span id="_Toc430948879" class="anchor"></span>그림 22 서버 관리 화면
 </p>
 
@@ -215,7 +215,7 @@ share: true
 -   DHCP 상태, iSCSI 상태, TFTP 상태, Daemon 상태를 나타냄
 
 <p align="center">
-<img src="/images/admin_manual/media/image13.png" width="600" />
+<img src="/images/admin_manual/media/image13.png" width="600" /><br>
 <span id="_Toc430948880" class="anchor"></span>그림 23 서버 상태 화면
 </p>
 
@@ -266,7 +266,7 @@ share: true
 -   업데이트 시작 시 전원이 마스터로 변경
 
 <p align="center">
-<img src="/images/admin_manual/media/image14.png" width="600" />
+<img src="/images/admin_manual/media/image14.png" width="600" /><br>
 <span id="_Toc430948881" class="anchor"></span>그림 26 클라이언트 관리 화면
 </p>
 
@@ -287,7 +287,7 @@ share: true
 -   Step7. 디스크 리셋 유형 선택(‘안함’으로 선택한 경우 리셋 안됨)
 
 <p align="center">
-<img src="/images/admin_manual/media/image15.png" width="600" />
+<img src="/images/admin_manual/media/image15.png" width="600" /><br>
 <span id="_Toc430948882" class="anchor"></span>그림 27 클라이언트 등록 화면
 </p>
 
@@ -306,7 +306,7 @@ share: true
 -   Step6. 디스크 리셋 유형 선택(‘안함’으로 선택한 경우 리셋 안됨)
 
 <p align="center">
-<img src="/images/admin_manual/media/image16.png" width="600"  />
+<img src="/images/admin_manual/media/image16.png" width="600"  /><br>
 그림 28 클라이언트 등록 화면
 </p>
 
@@ -317,7 +317,7 @@ share: true
 -   수정할 경우 수정 사항이 모두 적용될 때 까지 다른 기능 사용 불가능
 
 <p align="center">
-<img src="/images/admin_manual/media/image17.png" width="600" />
+<img src="/images/admin_manual/media/image17.png" width="600" /><br>
 <span id="_Toc430948883" class="anchor"></span>그림 29 클라이언트 수정 화면
 </p>
 
@@ -339,7 +339,7 @@ share: true
 -   새 디스크 등록, 편집, 삭제, 복사, 복구 기능
 
 <p align="center">
-<img src="/images/admin_manual/media/image18.png" width="600" />
+<img src="/images/admin_manual/media/image18.png" width="600" /><br>
 <span id="_Toc430948884" class="anchor"></span>그림 30 디스크 관리 화면
 </p>
 
@@ -352,7 +352,7 @@ share: true
 -   수정은 메모만 가능
 
 <p align="center">
-<img src="/images/admin_manual/media/image19.png" width="600"  />
+<img src="/images/admin_manual/media/image19.png" width="600"  /><br>
 <span id="_Toc430948885" class="anchor"></span>그림 31 디스크 생성 화면
 </p>
 
@@ -365,7 +365,7 @@ share: true
 -   관리자 비밀번호 인증 후 사용 가능
 
 <p align="center">
-<img src="/images/admin_manual/media/image20.png" width="600"  />
+<img src="/images/admin_manual/media/image20.png" width="600"  /><br>
 <span id="_Toc430948886" class="anchor"></span>그림 32 디스크 복사 화면
 </p>
 
@@ -376,7 +376,7 @@ share: true
 -   관리자 비밀번호 인증 후 사용 가능
 
 <p align="center">
-<img src="/images/admin_manual/media/image21.png" width="600" />
+<img src="/images/admin_manual/media/image21.png" width="600" /><br>
 <span id="_Toc430948887" class="anchor"></span>그림 33 스냅샷 복구 화면
 </p>
 
@@ -389,7 +389,7 @@ share: true
 -   완료 된 후 클라이언트에서 마스터 업데이트를 수행한다.
 
 <p align="center">
-<img src="/images/admin_manual/media/image22.png" width="600" />
+<img src="/images/admin_manual/media/image22.png" width="600" /><br>
 </p>
 
 ## 1.7 관리자 설정
@@ -403,7 +403,7 @@ share: true
 -   관리자 e-mail, 비밀번호 등록 (미등록 시 비밀번호 찾기 시 메일 전송 x)
 
 <p align="center">
-<img src="/images/admin_manual/media/image23.png" width="600" />
+<img src="/images/admin_manual/media/image23.png" width="600" /><br>
 <span id="_Toc430948892" class="anchor"></span>그림 34 관리자 설정 화면
 </p>
 
@@ -416,5 +416,5 @@ share: true
 -   현재 로그인중인 관리자 비밀번호 인증
 
 <p align="center">
-<img src="/images/admin_manual/media/image24.png" width="600" />
+<img src="/images/admin_manual/media/image24.png" width="400" /><br>
 </p>
