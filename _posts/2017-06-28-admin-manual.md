@@ -67,7 +67,7 @@ share: true
 -   클릭 시, 아이디와 비밀번호가 일치하는 경우 메인 페이지로 이동
 
 <p align="center">
-<img src="/images/admin_manual/media/image3.png" width="600" />
+<img src="/images/admin_manual/media/image3.png" width="600" /><br>
 <span id="_Toc430948858" class="anchor"></span>그림 1 로그인화면
 </p>
 
