@@ -458,34 +458,34 @@ share: true
 
 ### 6.3 Installer 실행
 
-    1)  설치 디렉토리에 접근권한 부여
+1)  설치 디렉토리에 접근권한 부여
 
-    2)  아래 명령어를 실행한다
+2)  아래 명령어를 실행한다
 
     <img src="/images/install_professional/media/image31.png" width="600" />
 
-    3)  Installer 실행
+3)  Installer 실행
 
     <img src="/images/install_professional/media/image32.png" width="600" />
 
-    4)  아래 명령어를 실행한다
+4)  아래 명령어를 실행한다
 
-    5)  \#&gt; python /Diskless\_ISCSI\_Installer/iscsi\_installer.py
+5)  \#&gt; python /Diskless\_ISCSI\_Installer/iscsi\_installer.py
 
-    6.  부팅서버에서 설정하였던 로컬서버 이름 및 IP 값 입력한다.
+6)  부팅서버에서 설정하였던 로컬서버 이름 및 IP 값 입력한다.
 
 <img src="/images/install_professional/media/image33.png" width="600" />
 
-    7.  데이터 베이스 IP 주소를 입력 한다. (프록시 서버 추가 시 프록시 서버 주소 값 입력)
+7)  데이터 베이스 IP 주소를 입력 한다. (프록시 서버 추가 시 프록시 서버 주소 값 입력)
 
 <img src="/images/install_professional/media/image34.png" width="600" />
 
-    8.  디스크 풀 확인 맞으면 “Y” 입력한다.
+8)  디스크 풀 확인 맞으면 “Y” 입력한다.
 
     <img src="/images/install_professional/media/image35.png" width="600" />
     <img src="/images/install_professional/media/image36.png" width="600" />
 
-    9.  설치 완료되면 컴퓨터 재부팅 한다.
+9)  설치 완료되면 컴퓨터 재부팅 한다.
 
 
 ## 7. Q & A
