@@ -124,65 +124,65 @@ share: true
 
 ### 3.1 우분투 운영체제 설치
 
-#### 1)  부팅 USB를 사용하여 우분투 설치 환경으로 부팅한다.
+1)  부팅 USB를 사용하여 우분투 설치 환경으로 부팅한다.
 
-#### 2)  BIOS 설정에 부팅 순서가 USB 부팅이 1순위로 되어야 한다. (HDD나 CD 등이 1순위면 부팅이 정상적으로 되지 않는다.)
+2)  BIOS 설정에 부팅 순서가 USB 부팅이 1순위로 되어야 한다. (HDD나 CD 등이 1순위면 부팅이 정상적으로 되지 않는다.)
 
-#### 3)  Install Ubuntu를 선택한다. (실제 디스크에 설치하는 과정)
+3)  Install Ubuntu를 선택한다. (실제 디스크에 설치하는 과정)
 
 <img src="/images/db_cluster_install/media/image1.png" width="600"  />
 
-#### 4)  와이파이 모양 아이콘 -&gt; Edit Connections를 누른다. (Ethernet 리스트는 하드웨어 스펙에 따라 상이함)
+4)  와이파이 모양 아이콘 -&gt; Edit Connections를 누른다. (Ethernet 리스트는 하드웨어 스펙에 따라 상이함)
 
 <img src="/images/db_cluster_install/media/image2.png" width="600" />
 
-#### 5)  Wired connection 1을 선택하고 Edit 버튼을 누른다.
+5)  Wired connection 1을 선택하고 Edit 버튼을 누른다.
 
-#### 6)  Editing Wired connection 1 창에서 IPv4 Settings 탭으로 이동한다.
+6)  Editing Wired connection 1 창에서 IPv4 Settings 탭으로 이동한다.
 
 <img src="/images/db_cluster_install/media/image3.png" width="600" />
 
-#### 7)  Method를 Manual로 변경하고 Add버튼을 눌러 Address, Network, Gateway, DNS servers를 입력한다. (아이피 정보는 네트워크 환경에 따라 상이함)
+7)  Method를 Manual로 변경하고 Add버튼을 눌러 Address, Network, Gateway, DNS servers를 입력한다. (아이피 정보는 네트워크 환경에 따라 상이함)
 
 <img src="/images/db_cluster_install/media/image4.png" width="600" />
 
 
-#### 8)  저장 버튼을 눌러 인터넷에 연결되는지 체크한다.
+8)  저장 버튼을 눌러 인터넷에 연결되는지 체크한다.
 
-#### 9)  인터넷이 연결되었다면 Continue 버튼을 누른다.
+9)  인터넷이 연결되었다면 Continue 버튼을 누른다.
 
 <img src="/images/db_cluster_install/media/image5.png" width="600"  />
 
-#### 10)  Something else를 누르고 Continue 버튼을 누른다.
+10)  Something else를 누르고 Continue 버튼을 누른다.
 
 <img src="/images/db_cluster_install/media/image6.png" width="600" />
 
 
-#### 11)  우분투를 설치 할 /dev/sda1(100G)를 선택하고 Change를 누른다.
+11)  우분투를 설치 할 /dev/sda1(100G)를 선택하고 Change를 누른다.
 
-#### 12)  Edit partition 창에서 Use as는 ext4, Mount point는 /로 한다.
+12)  Edit partition 창에서 Use as는 ext4, Mount point는 /로 한다.
 
-#### 13)  /dev/sda1을 제외한 나머지 파티션은 기억한다. (/dev/sdb와 같이 숫자로 끝나지 않는 것은 뺌)
+13)  /dev/sda1을 제외한 나머지 파티션은 기억한다. (/dev/sdb와 같이 숫자로 끝나지 않는 것은 뺌)
 
 <img src="/images/db_cluster_install/media/image7.png" width="600"  />
 
-#### 14)  /dev/sda1을 선택하고 인스톨을 시작한다.
+14)  /dev/sda1을 선택하고 인스톨을 시작한다.
 
-#### 15)  이어서 나오는 Do you want to return to the partitioning menu? / Do you want to return to the partitioner? 에서는 모두 Continue를 선택한다.
+15)  이어서 나오는 Do you want to return to the partitioning menu? / Do you want to return to the partitioner? 에서는 모두 Continue를 선택한다.
 
 <img src="/images/db_cluster_install/media/image8.png" width="600"  />
 
 <img src="/images/db_cluster_install/media/image9.png" width="600"  />
 
-#### 16)  이어서 나오는 지역 설정, 키보드 설정은 default 값으로 한다.
+16)  이어서 나오는 지역 설정, 키보드 설정은 default 값으로 한다.
 
-#### 17)  Who are you? 에서는 사용자 계정을 만든다.
+17)  Who are you? 에서는 사용자 계정을 만든다.
 
-#### 18)  사용자 계정은 우분투 로그인할 때 사용되니 반드시 기억한다.
+18)  사용자 계정은 우분투 로그인할 때 사용되니 반드시 기억한다.
 
 <img src="/images/db_cluster_install/media/image10.png" width="600"  />
 
-#### 19)  재 부팅 후 BIOS 설정에서 부팅 순서를 HDD 부팅이 1순위로 변경한다.
+19)  재 부팅 후 BIOS 설정에서 부팅 순서를 HDD 부팅이 1순위로 변경한다.
 
 
 
@@ -223,7 +223,7 @@ share: true
 
 5)  다른 서버에도 위 과정을 동일하게 진행한다.
 
-    * 다음 명령어는 한 개 서버에서 설정 하면 되고, 모든 컴퓨터에서 설정 하지 않아도 된다.
+- 다음 명령어는 한 개 서버에서 설정 하면 되고, 모든 컴퓨터에서 설정 하지 않아도 된다.
 
 6)  입력 완료 되면 서비스 재 시작 하여야 한다. (단 1개의 서버에서만 진행 하면 된다. 그 외의 서버는 재 시작 하면 된다.)
 
