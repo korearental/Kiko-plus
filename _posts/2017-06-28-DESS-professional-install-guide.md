@@ -395,22 +395,22 @@ share: true
 
 3)  GParted Partition Editor를 실행한다.
 
-    -   좌측 상단 우분투 로고 버튼을 누르고 gparted 라고 입력하면, Gparted Partition Editor 어플리케이션 아이콘이 띄워지고, 이를 선택하여 실행한다.
+-   좌측 상단 우분투 로고 버튼을 누르고 gparted 라고 입력하면, Gparted Partition Editor 어플리케이션 아이콘이 띄워지고, 이를 선택하여 실행한다.
 
-    -   이 어플리케이션은 파티션 작업을 GUI 환경에서 실행 할 수 있도록 지원하는 것으로서, 좀 더 자세한 설명을 원하면 다음 사이트를 참고 한다. ([*http://gparted.org/*](http://gparted.org/))
+-   이 어플리케이션은 파티션 작업을 GUI 환경에서 실행 할 수 있도록 지원하는 것으로서, 좀 더 자세한 설명을 원하면 다음 사이트를 참고 한다. ([*http://gparted.org/*](http://gparted.org/))
 
-    -   동일한 작업을 콘솔로 수행할 수도 있는데, parted 란 명령어를 이용하여 작업하면 되는데, 이에 대한 설명은 다음 사이트를 참고한다. ( [*https://www.gnu.org/software/parted/manual/parted.html*](https://www.gnu.org/software/parted/manual/parted.html) )
+-   동일한 작업을 콘솔로 수행할 수도 있는데, parted 란 명령어를 이용하여 작업하면 되는데, 이에 대한 설명은 다음 사이트를 참고한다. ( [*https://www.gnu.org/software/parted/manual/parted.html*](https://www.gnu.org/software/parted/manual/parted.html) )
 
-    -   어플리케이션을 실행하면 서버에 장착된 디스크 (HDD, SSD 등) 장치들에 대해 작업을 진행할 수 있으며, 장치 별로 우 상단에서 선택할 수 있다. (리눅스에서는 장치 별로 /dev/sda, /dev/sdb 등과 같이 식별자가 자동으로 부여 되는 것에 유의하여 작업 대상이 되는 디스크가 어떤 것인지 확인하고 작업을 수행한다. 다만, 함께 전체 용량이 같이 볼 수 있으므로 잘못 선택하지 않도록 유의한다.)
+-   어플리케이션을 실행하면 서버에 장착된 디스크 (HDD, SSD 등) 장치들에 대해 작업을 진행할 수 있으며, 장치 별로 우 상단에서 선택할 수 있다. (리눅스에서는 장치 별로 /dev/sda, /dev/sdb 등과 같이 식별자가 자동으로 부여 되는 것에 유의하여 작업 대상이 되는 디스크가 어떤 것인지 확인하고 작업을 수행한다. 다만, 함께 전체 용량이 같이 볼 수 있으므로 잘못 선택하지 않도록 유의한다.)
 
-    -   GParted Partition Editor 창의 메뉴에서 View -&gt; Device Information을 선택하면 아래와 같은 화면이 나타난다. (각 항목의 구체적인 수치는 하드웨어 스펙에 따라 상이함)
+-   GParted Partition Editor 창의 메뉴에서 View -&gt; Device Information을 선택하면 아래와 같은 화면이 나타난다. (각 항목의 구체적인 수치는 하드웨어 스펙에 따라 상이함)
 
 <p align="center">
 <img src="/images/install_professional/media/image25.png" width="600" />
 </p>
 
 4)  Device -&gt; Create Partition Table을 실행하여 partition table 타입을 msdos로 변경한다.
-    - 이는 /dev/sda, /dev/sdb 등 서버에 장착된 모든 디스크에 실행한다.
+- 이는 /dev/sda, /dev/sdb 등 서버에 장착된 모든 디스크에 실행한다.
 
 <p align="center">
 <img src="/images/install_professional/media/image26.png" width="600" />
@@ -424,7 +424,7 @@ share: true
 
 6)  /dev/sda 디스크의 나머지 공간은 하나의 파티션으로 할당한다.
 
-    -  /dev/sda 디스크에 파티션을 할당하면 아래와 같은 화면이 나타난다.
+-  /dev/sda 디스크에 파티션을 할당하면 아래와 같은 화면이 나타난다.
 
 <p align="center">
 <img src="/images/install_professional/media/image28.png" width="600" />
