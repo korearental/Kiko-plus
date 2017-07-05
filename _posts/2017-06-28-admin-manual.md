@@ -68,7 +68,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image3.png" width="600" /><br>
-<span id="_Toc430948858" class="anchor"></span>그림 1 로그인화면
 </p>
 
 #### 1.1.2 아이디 찾기 화면
@@ -92,12 +91,10 @@ share: true
 -   개인정보가 맞을 경우 아이디의 3자리를 알 수 있다.
 <p align="center">
 <img src="/images/admin_manual/media/image4.png" width="600"  /><br>
-<span id="_Toc430948859" class="anchor"></span>그림 2 아이디 찾기 화면
 </p>
 
 <p align="center">
 <img src="/images/admin_manual/media/image5.png" width="600" /><br>
-<span id="_Toc430948860" class="anchor"></span>그림 3 아이디 찾기 화면2
 </p>
 
 #### 1.1.3 비밀번호 찾기 화면
@@ -120,11 +117,9 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image6.png" width="600"  /><br>
-<span id="_Toc430948861" class="anchor"></span>그림 4 비밀번호 찾기 화면
 </p>
 <p align="center">
 <img src="/images/admin_manual/media/image7.png" width="600" /><br>
-<span id="_Toc430948862" class="anchor"></span>그림 5 비밀번호 찾기 화면2
 </p>
 
 ### 1.2 관리자 관리
@@ -139,7 +134,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image8.png" width="600" /><br>
-<span id="_Toc430948863" class="anchor"></span>그림 6 관리자 관리 화면
 </p>
 
 #### 1.2.1 관리자 등록 화면
@@ -164,7 +158,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image9.png" width="600" /><br>
-<span id="_Toc430948864" class="anchor"></span>그림 7 관리자 등록 화면
 </p>
 
 #### 1.2.2 관리자 편집 화면
@@ -179,7 +172,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image10.png" width="600" /><br>
-<span id="_Toc430948865" class="anchor"></span>그림 8 관리자 편집 화면
 </p>
 
 ## 1.3 Dash Board
@@ -194,7 +186,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image11.png" width="600" /><br>
-<span id="_Toc430948878" class="anchor"></span>그림 21 Dash Board 화면
 </p>
 
 ## 1.4 서버 관리
@@ -205,7 +196,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image12.png" width="600" /><br>
-<span id="_Toc430948879" class="anchor"></span>그림 22 서버 관리 화면
 </p>
 
 #### 1.4.1 서버 상태 화면
@@ -216,7 +206,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image13.png" width="600" /><br>
-<span id="_Toc430948880" class="anchor"></span>그림 23 서버 상태 화면
 </p>
 
 ## 1.5 클라이언트 관리
@@ -267,7 +256,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image14.png" width="600" /><br>
-<span id="_Toc430948881" class="anchor"></span>그림 26 클라이언트 관리 화면
 </p>
 
 #### 1.5.1 클라이언트 다중 등록 화면
@@ -288,7 +276,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image15.png" width="600" /><br>
-<span id="_Toc430948882" class="anchor"></span>그림 27 클라이언트 등록 화면
 </p>
 
 #### 1.5.2 클라이언트 단독 등록 화면
@@ -307,7 +294,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image16.png" width="600"  /><br>
-그림 28 클라이언트 등록 화면
 </p>
 
 #### 1.5.3 클라이언트 수정 화면
@@ -318,7 +304,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image17.png" width="600" /><br>
-<span id="_Toc430948883" class="anchor"></span>그림 29 클라이언트 수정 화면
 </p>
 
 ## 1.6 디스크 관리
@@ -340,7 +325,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image18.png" width="600" /><br>
-<span id="_Toc430948884" class="anchor"></span>그림 30 디스크 관리 화면
 </p>
 
 #### 1.6.1 디스크 생성 화면
@@ -353,7 +337,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image19.png" width="600"  /><br>
-<span id="_Toc430948885" class="anchor"></span>그림 31 디스크 생성 화면
 </p>
 
 #### 1.6.2 디스크 복사 화면
@@ -366,7 +349,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image20.png" width="600"  /><br>
-<span id="_Toc430948886" class="anchor"></span>그림 32 디스크 복사 화면
 </p>
 
 #### 1.6.3 스냅샷 복구 화면
@@ -377,7 +359,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image21.png" width="600" /><br>
-<span id="_Toc430948887" class="anchor"></span>그림 33 스냅샷 복구 화면
 </p>
 
 #### 1.6.4 디스크 용량 증가
@@ -404,7 +385,6 @@ share: true
 
 <p align="center">
 <img src="/images/admin_manual/media/image23.png" width="600" /><br>
-<span id="_Toc430948892" class="anchor"></span>그림 34 관리자 설정 화면
 </p>
 
 ## 1.8 기타
