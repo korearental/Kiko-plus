@@ -151,7 +151,7 @@ share: true
 <img src="/images/install_basic/media/image3.png" width="600"  />
 
 #### 4)  Device -&gt; Create Partition Table을 실행하여 partition table 타입을 msdos로 변경한다.
-    이는 /dev/sda, /dev/sdb 등 서버에 장착된 모든 디스크에 실행한다.
+- 이는 /dev/sda, /dev/sdb 등 서버에 장착된 모든 디스크에 실행한다.
 
 <img src="/images/install_basic/media/image4.png" width="600" height="302" />
 
@@ -368,9 +368,9 @@ share: true
 
 <img src="/images/install_basic/media/image34.png" width="600" />
 
-    -   Slave 서버 완료 시 입력된 정보를 확인하는 페이지이다. 정보가 재대로 입력 되었는지 확인한다.
+-   Slave 서버 완료 시 입력된 정보를 확인하는 페이지이다. 정보가 재대로 입력 되었는지 확인한다.
 
-- 설치 stop 4 Finish 완료
+- **설치 Step 4** &gt; Finish (완료)
 
 <img src="/images/install_basic/media/image35.png" width="600" />
 
