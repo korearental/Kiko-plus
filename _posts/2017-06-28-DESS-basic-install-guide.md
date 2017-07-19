@@ -88,6 +88,7 @@ share: true
 <img src="/images/install_basic/media/image1.png" width="565" height="424" />
 <p>
 
+
 ### 2.2 우분투 설치 USB Preparation
 
 -   전달 받는 iso 파일은 부팅가능한 usb로 만든다.
