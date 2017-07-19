@@ -84,10 +84,7 @@ share: true
 
 -   한편, L2/L3 장비의 포트 패스트 기능으로 패킷 드롭이 되는 현상이 발생할 수 있으니, 시스템 관리자와 문의하여 확인이 필요하다.
 
-<p align="center">
-<img src="/images/install_basic/media/image1.png" width="565" height="424" />
-<p>
-
+![diagram](/images/install_basic/media/image1.png)
 
 ### 2.2 우분투 설치 USB Preparation
 
