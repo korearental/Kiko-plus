@@ -103,8 +103,6 @@ share: true
 - Source Disk : /dev/sda1 입력
 - Server IP Address : Local Server IP 입력
 - Master’s Name : Image 명 입력
-- 인증 화면이 출력되면 yes를 선택한다.
-- Are you sure to continue connecting -> yes
 
 
 ### 4) 로컬 업로드
