@@ -103,20 +103,8 @@ share: true
 - Source Disk : /dev/sda1 입력
 - Server IP Address : Local Server IP 입력
 - Master’s Name : Image 명 입력
-
-![원격 업로드 실행-2](/images/windows_install/image16.png)
-
 - 인증 화면이 출력되면 yes를 선택한다.
 - Are you sure to continue connecting -> yes
-
-![원격 업로드 실행-3](/images/windows_install/image17.png)
-
-
-- local server root 계정의 password 를 입력하면 이미지 업로드 완료 진행상황 확인 시 system monitor 에서 resources 옵션을 확인 하면 전송하는 것을 확인 할 수 있습니다.
-- Local server root 계정의 password가 설정되지 않은 경우 실패 메시지 출력되므로 password 설정 후 다시 진행한다.
-Ps: 로컬서버에서 명령어 “#> passwd “ 를 입력하여 root 패스워드를 설정 할수 있습니다.
-
-![원격 업로드 실행-4](/images/windows_install/image18.png)
 
 
 ### 4) 로컬 업로드
@@ -124,13 +112,11 @@ Ps: 로컬서버에서 명령어 “#> passwd “ 를 입력하여 root 패스�
 -아래 명령어 실행 후 [2] Virtual Disk Local Upload를 선택한다.
 - #>python /Diskless_Installer/Addon/vdu.py
 
-![원격 업로드 실행-1](/images/windows_install/image15.png)
+![원격 업로드 실행-1](/images/windows_install/image16.png)
 
 
 - Source Disk : /dev/<윈도우 하드 위치> 입력 ( 서버의 하드의 개수에 따라 입력 값이 변경 됩니다. )
 - Master’s Name : Image 명 입력
-
-![원격 업로드 실행-2](/images/windows_install/image19.png)
 
 
 ## 4. 윈도우 이미지 활성화 (서버)
