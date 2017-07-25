@@ -313,7 +313,7 @@ share: true
 <img src="/images/install_basic/media/image21.png" width="600" />
 </p>
 
-#### 7)  먼저 설치한 데이터 베이스 IP 주소를 입력 한다. ( ifconfig 명령어로 ip 확인 )
+#### 7)  127.0.0.1 입력한다
 
 <p align="center">
 <img src="/images/install_basic/media/image22.png"  width="595" />
