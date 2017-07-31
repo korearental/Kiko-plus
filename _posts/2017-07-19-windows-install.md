@@ -18,7 +18,7 @@ share: true
 
 ## 1. 윈도우 설치
 ### 1) Boot mode (win10)
--  설정은 win10 이미지를 로컬 업로드 방식으로 전송 하기 위한 설정입니다. 
+- 다음 설정은 win10 이미지를 로컬 업로드 방식으로 전송 하기 위한 설정입니다. 
 - 리모트 업로드로 이미지 업로드 하면 상위 설정 하지 않아도 됩니다.
 
 ![Boot mode 설정](/images/windows_install/image17.png)
