@@ -21,7 +21,7 @@ share: true
 - 상위 설정은 win10 이미지를 로컬 업로드 방식으로 전송 하기 위한 설정입니다. 
 - 리모트 업로드로 이미지 업로드 하면 상위 설정 하지 않아도 됩니다.
 
-![Boot mode 설정](/images/windows_install/image17.jpeg)
+![Boot mode 설정](/images/windows_install/image17.png
 
 ### 2) 클라이언트 부팅 순서 설정 (BIOS)
 - 준비해둔 윈도우 인스톨 USB를 클라이언트에 꽂은 뒤에 클라이언트 PC를 켜서 BIOS 셋업으로 들어갑니다.
