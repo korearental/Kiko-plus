@@ -293,33 +293,23 @@ share: true
 
 ### 5.1 설치 스크립트 실행
 
-#### 1)  설치 디렉토리에 접근권한 부여
+#### 1)  Installer 실행
 
 #### 2)  아래 명령어를 실행한다
 
-#### 3)  \# sudo chmod –R 755 /Diskless\_Installer/
-
-<p align="center">
-<img src="/images/install_basic/media/image20.png" width="600" />
-</p>
-
-#### 4)  Installer 실행
-
-#### 5)  아래 명령어를 실행한다
-
-#### 6)  \# python /Diskless\_Installer/installer.py
+####   \# python /Diskless\_Installer/installer.py
 
 <p align="center">
 <img src="/images/install_basic/media/image21.png" width="600" />
 </p>
 
-#### 7)  127.0.0.1 입력한다
+#### 3)  127.0.0.1 입력한다
 
 <p align="center">
 <img src="/images/install_basic/media/image22.png"  width="595" />
 </p>
 
-#### 8)  로컬서버 username 을 입력 한다.
+#### 4)  로컬서버 username 을 입력 한다.
 
 <p align="center">
 <img src="/images/install_basic/media/image23.png"  width="589"  />
