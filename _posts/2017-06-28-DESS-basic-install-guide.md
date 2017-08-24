@@ -349,21 +349,8 @@ share: true
 
 -   State 값이 성공으로 변하면 next 버튼이 활성화 된다. Next 버튼을 누른다.
 
-#### 5.3.3  **설치 Step 2** &gt; Version Check
 
-<p align="center">
-<img src="/images/install_basic/media/image27.png" width="600" />
-</p>
-
--   Check 버튼을 누른다.
-
-<p align="center">
-<img src="/images/install_basic/media/image28.png" width="600"  />
-</p>
-
--   파일 체크가 정상적으로 완료 되면 next 버튼을 눌러 다음 step으로 넘어간다.
-
-#### 5.3.4  **설치 Step 3** &gt; Installing Server
+#### 5.3.3  **설치 Step 3** &gt; Installing Server
 
 <p align="center">
 <img src="/images/install_basic/media/image29.png" width="600" />
@@ -377,17 +364,13 @@ share: true
 
     -   Single: 서버가 단일 서버일 경우 선택한다.
 
-    -   Master: 서버가 다수일 경우 하나를 마스터로 선택 한다.
-
-    -   Slave: 서버가 다수일 경우 하나의 마스터를 제외한 나머지 서버는 slave로 선택한다.
-
 <p align="center">
 <img src="/images/install_basic/media/image30.png" width="600" />
 </p>
 
 - Master 설정
 
-    -   앞에서 single 또는 master로 선택했을 경우 master 설정 화면이 나온다.
+    -   앞에서 single 선택했을 경우 master 설정 화면이 나온다.
 
     -   마스터 PC의 ip, subnet mask, mac, dns, gateway 정보를 입력 후 next 버튼을 누른다.
 
@@ -398,16 +381,6 @@ share: true
 - DHCP 설정
 
     -   DHCP 대역(subnet), subnet mask, gateway, DHCP start ip, DHCP end ip, DNS를 설정한다.
-
-<p align="center">
-<img src="/images/install_basic/media/image32.png" width="600"  />
-</p>
-
-- Replication 설정 (server type을 slave로 설정시)
-
-    -   Server id를 입력 한다. (1을 제외한 다른 id를 입력, slave 서버가 다수 일 경우 master id가 1을 가져 가기 때문에 slave서버는 2,3,4…등 중복되지 않는 수를 입력한다.)
-
-    -   Master 서버 ip를 입력 한다.
 
 <p align="center">
 <img src="/images/install_basic/media/image33.png" width="600"  />
