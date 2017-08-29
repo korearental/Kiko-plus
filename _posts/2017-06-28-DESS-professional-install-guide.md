@@ -273,9 +273,9 @@ share: true
 <img src="/images/install_professional/media/image12.png" width="600" />
 </p>
 
-### 4.3 MMS(=local server)로의 접근권한 부여
+### 4.3 MMS(=Booting Server, Storage Server1, Storage Server2,...)로의 접근권한 부여
 
-1)  아래 명령어를 실행하여 설치 스크립트(Installer)를 실행 후 순서에 따른다.
+1)  아래 명령어를  디비서버에서 실행하여 설치 스크립트(Installer)를 실행 후 순서에 따른다.
 
 2)  \# python /Diskless\_Installer/installer.py
 
@@ -283,7 +283,7 @@ share: true
 
 4)  이어서 \[2\] Grant Access to Local Server를 선택한다.
 
-5)  Local server ip, 유저명, 암호를 입력한다.
+5)  Local server ip를 입력한다.
 
 <p align="center">
 <img src="/images/install_professional/media/image13.png" width="600" />
@@ -291,7 +291,7 @@ share: true
 
 ## 5. BMS 서버 설치
 
--   BMS 서버의 설치 과정은 섹션 4 와 거의 동일하다.
+-   BMS 서버의 설치 과정은 섹션 4 와 거의 동일한다.
 
 -   4.1과 동일하게 우선 리눅스 운영체제를 설치하고, 이후 BMS 구성 요소 설치를 진행하여 완료하는 순으로 진행한다.
 
@@ -525,45 +525,33 @@ share: true
 
 ### 6.3 Installer 실행
 
-1)  설치 디렉토리에 접근권한 부여
+1)  아래 명령어를 실행한다
 
-2)  아래 명령어를 실행한다
+2)  \#&gt; python /Diskless\_ISCSI\_Installer/iscsi\_installer.py
 
-<p align="center">
-<img src="/images/install_professional/media/image31.png" width="600" />
-</p>
-
-3)  Installer 실행
-
-<p align="center">
-<img src="/images/install_professional/media/image32.png" width="600" />
-</p>
-
-4)  아래 명령어를 실행한다
-
-5)  \#&gt; python /Diskless\_ISCSI\_Installer/iscsi\_installer.py
-
-6)  부팅서버에서 설정하였던 로컬서버 이름 및 IP 값 입력한다.
+3)  부팅서버에서 설정하였던 로컬서버 이름 및 IP 값 입력한다.
 
 <p align="center">
 <img src="/images/install_professional/media/image33.png" width="600" />
 </p>
 
-7)  데이터 베이스 IP 주소를 입력 한다. (프록시 서버 추가 시 프록시 서버 주소 값 입력)
+4)  데이터 베이스 IP 주소를 입력 한다. (프록시 서버 추가 시 프록시 서버 주소 값 입력)
 
 <p align="center">
 <img src="/images/install_professional/media/image34.png" width="600" />
 </p>
 
-8)  디스크 풀 확인 맞으면 “Y” 입력한다.
+5)  디스크 풀 확인 맞으면 “Y” 입력한다.
 
 <p align="center">
-    <img src="/images/install_professional/media/image35.png" width="600" />
+    <img src="/images/install_professional/media/image36-0.png" width="600" />
     <img src="/images/install_professional/media/image36.png" width="600" />
 </p>
 
-9)  설치 완료되면 컴퓨터 재부팅 한다.
-
+6)  설치 완료되면 컴퓨터 재부팅 한다.
+<p align="center">
+    <img src="/images/install_professional/media/image35.png" width="600" />
+</p>
 
 ## 7. Q & A
 
@@ -598,7 +586,7 @@ share: true
 <img src="/images/install_professional/media/image39.png" width="600" />
 </p>
 
-7)  local server’s ip address, username, and username’s password 를 입력한다.
+7)  local server’s ip address 를 입력한다.
 <p align="center">
 <img src="/images/install_professional/media/image40.png" width="600" />
 </p>
