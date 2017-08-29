@@ -496,7 +496,7 @@ share: true
 
 <img src="/images/install_standard/media/image39.png" width="600" />
 
-7)  local server’s ip address, username, and username’s password 를 입력한다.
+7)  local server’s ip address 를 입력한다.
 
 <img src="/images/install_standard/media/image40.png" width="600" />
 
