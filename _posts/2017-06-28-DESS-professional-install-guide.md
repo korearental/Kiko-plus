@@ -545,7 +545,6 @@ share: true
 
 <p align="center">
     <img src="/images/install_professional/media/image36-0.png" width="600" />
-    <img src="/images/install_professional/media/image36.png" width="600" />
 </p>
 
 6)  설치 완료되면 컴퓨터 재부팅 한다.
