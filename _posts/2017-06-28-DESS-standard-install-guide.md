@@ -398,7 +398,7 @@ share: true
 
 -   Interface : 네트워크 디바이스 명을 입력한다. (터미널에서 ifconfig를 치면 eth0, eth1등을 의미한다.)
 
--   Ip, gateway, netmask, Dns 정보를 입력한다.
+-   ip, gateway, netmask, dns 정보를 입력한다.
 
 <img src="/images/install_standard/media/image26.png" width="600" />
 
