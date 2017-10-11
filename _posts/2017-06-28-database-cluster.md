@@ -310,3 +310,6 @@ share: true
 ### 5.1 DB 접속 오류 시
 
 1)  4.3 과정을 다시 반복한다.
+<p align="center">
+<img src="/images/db_cluster_install/media/image18.png" width="600"  />
+</p>
