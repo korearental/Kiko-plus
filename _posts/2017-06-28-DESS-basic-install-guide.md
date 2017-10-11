@@ -352,10 +352,6 @@ share: true
 
 #### 5.3.3  **설치 Step 3** &gt; Installing Server
 
-<p align="center">
-<img src="/images/install_basic/media/image29.png" width="600" />
-</p>
-
 - 입력 값
 
     -   Cache size: 기본 값 25로 설정 되어 있다. 스펙이 저사양 스펙이 아니라면 기본 값으로 설정한다.
@@ -363,9 +359,9 @@ share: true
     -   Server type
 
     -   Single: 서버가 단일 서버일 경우 선택한다.
-
+    
 <p align="center">
-<img src="/images/install_basic/media/image30.png" width="600" />
+<img src="/images/install_basic/media/image29.png" width="600" />
 </p>
 
 - Master 설정
@@ -375,7 +371,7 @@ share: true
     -   마스터 PC의 ip, subnet mask, mac, dns, gateway 정보를 입력 후 next 버튼을 누른다.
 
 <p align="center">
-<img src="/images/install_basic/media/image31.png" width="600" />
+<img src="/images/install_basic/media/image30.png" width="600" />
 </p>
 
 - DHCP 설정
@@ -383,16 +379,14 @@ share: true
     -   DHCP 대역(subnet), subnet mask, gateway, DHCP start ip, DHCP end ip, DNS를 설정한다.
 
 <p align="center">
-<img src="/images/install_basic/media/image33.png" width="600"  />
+<img src="/images/install_basic/media/image31.png" width="600" />
 </p>
 
 -  마스터 완료시 입력된 정보를 확인하는 페이지이다. 정보가 재대로 입력되었는지 확인 한다.
 
 <p align="center">
-<img src="/images/install_basic/media/image34.png" width="600" />
+<img src="/images/install_basic/media/image33.png" width="600"  />
 </p>
-
--   Slave 서버 완료 시 입력된 정보를 확인하는 페이지이다. 정보가 재대로 입력 되었는지 확인한다.
 
 - **설치 Step 4** &gt; Finish (완료)
 
