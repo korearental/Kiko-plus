@@ -317,7 +317,7 @@ share: true
 
 ### 5.2 설치 페이지 열기
 
-- 인터넷 창을 열어 localhost:8000 입력한다.
+- 인터넷 창을 자동으로 열어 localhost:8000 이동한다.
 
 ### 5.3 설치 페이지 실행
 
@@ -373,6 +373,7 @@ share: true
 <p align="center">
 <img src="/images/install_basic/media/image30.png" width="600" />
 </p>
+- 인터넷 창을 자동으로 열어 localhost:8000 이동한다.
 
 - DHCP 설정
 
