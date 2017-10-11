@@ -223,7 +223,7 @@ share: true
 
 4)  이어서 \[2\] Grant Access to Local Server를 선택한다.
 
-5)  Local server ip, 유저명(DB), 암호(DB)를 입력한다. (그림과 같이)
+5)  Local server ip 를 입력한다. (그림과 같이)
 
 <img src="/images/install_standard/media/image13.png" width="600" />
 
@@ -369,7 +369,7 @@ share: true
 
 <img src="/images/install_standard/media/image22.png" width="600" />
 
-6)  데이터 베이스 IP 주소를 입력 한다.
+6)  [2] Install Diskless Server를 선택하고 데이터 베이스 IP 주소를 입력 한다.
 
 <img src="/images/install_standard/media/image23.png" alt="F:\VirtualBox_local-server_07_04_2017_11_29_17.png" width="595" />
 
@@ -408,21 +408,11 @@ share: true
 
 -   State 값이 성공으로 변하면 next 버튼이 활성화 된다. Next 버튼을 누른다.
 
-3)  **설치 Step 2** &gt; Version Check
-
-<img src="/images/install_standard/media/image28.png" width="600" />
-
--   Check 버튼을 누른다.
-
-<img src="/images/install_standard/media/image29.png" width="600" />
-
--   파일 체크가 정상적으로 완료 되면 next 버튼을 눌러 다음 step으로 넘어간다.
-
-4)  **설치 Step 3** &gt; Installing Server
+3)  **설치 Step 2** &gt; Installing Server
 
 <img src="/images/install_standard/media/image30.png" width="600"  />
 
-5)  입력 값
+4)  입력 값
 
 -   Cache size: 기본 값 25로 설정 되어 있다. 스펙이 저사양 스펙이 아니라면 기본 값으로 설정한다.
 
@@ -430,41 +420,25 @@ share: true
 
 -   Single: 서버가 단일 서버일 경우 선택한다.
 
--   Master: 서버가 다수일 경우 하나를 마스터로 선택 한다.
-
--   Slave: 서버가 다수일 경우 하나의 마스터를 제외한 나머지 서버는 slave로 선택한다.
-
-<img src="/images/install_standard/media/image31.png" width="600" />
-
-6)  Master 설정
+5)  Master 설정
 
 -   앞에서 single 또는 master로 선택했을 경우 master 설정 화면이 나온다.
 
 -   마스터 PC의 ip, subnet mask, mac, dns, gateway 정보를 입력 후 next 버튼을 누른다.
 
-<img src="/images/install_standard/media/image32.png" width="600" />
+<img src="/images/install_standard/media/image31.png" width="600" />
 
-7)  DHCP 설정
+6)  DHCP 설정
 
 -   DHCP 대역(subnet), subnet mask, gateway, DHCP start ip, DHCP end ip, DNS를 설정한다.
 
-> <img src="/images/install_standard/media/image33.png" width="600" />
+<img src="/images/install_standard/media/image32.png" width="600" />
 
-8)  Replication 설정 (server type을 slave로 설정시)
-
--   Server id를 입력 한다. (1을 제외한 다른 id를 입력, slave 서버가 다수 일 경우 master id가 1을 가져 가기 때문에 slave서버는 2,3,4…등 중복되지 않는 수를 입력한다.)
-
--   Master 서버 ip를 입력 한다.
+7)  마스터 완료시 입력된 정보를 확인하는 페이지이다. 정보가 재대로 입력되었는지 확인 한다.
 
 <img src="/images/install_standard/media/image34.png" width="600" />
 
-9)  마스터 완료시 입력된 정보를 확인하는 페이지이다. 정보가 재대로 입력되었는지 확인 한다.
-
-<img src="/images/install_standard/media/image35.png" width="600" />
-
--   Slave 서버 완료 시 입력된 정보를 확인하는 페이지이다. 정보가 재대로 입력 되었는지 확인한다.
-
-10)  설치 stop 4 Finish 완료
+8)  설치 stop 3 Finish 완료
 
 <img src="/images/install_standard/media/image36.png" width="600" />
 
