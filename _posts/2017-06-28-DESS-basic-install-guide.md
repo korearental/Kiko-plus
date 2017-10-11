@@ -350,7 +350,7 @@ share: true
 -   State 값이 성공으로 변하면 next 버튼이 활성화 된다. Next 버튼을 누른다.
 
 
-#### 5.3.3  **설치 Step 3** &gt; Installing Server
+#### 5.3.3  **설치 Step 2** &gt; Installing Server
 
 - 입력 값
 
@@ -388,7 +388,7 @@ share: true
 <img src="/images/install_basic/media/image33.png" width="600"  />
 </p>
 
-- **설치 Step 4** &gt; Finish (완료)
+- **설치 Step 3** &gt; Finish (완료)
 
 <p align="center">
 <img src="/images/install_basic/media/image35.png" width="600" />
