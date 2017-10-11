@@ -303,7 +303,7 @@ share: true
 <img src="/images/install_basic/media/image21.png" width="600" />
 </p>
 
-#### 3)  127.0.0.1 입력한다
+#### 3) [2] Install Diskless Server 를 선택하고 127.0.0.1 입력 한다.
 
 <p align="center">
 <img src="/images/install_basic/media/image22.png"  width="595" />
