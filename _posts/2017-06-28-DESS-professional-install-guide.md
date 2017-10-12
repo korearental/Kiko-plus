@@ -314,15 +314,15 @@ share: true
 
 4)  데이터베이스 서버 주소 입력 한다.
 
+5)  로컬서버 사용자 이름 입력 한다.
+
 <p align="center">
 <img src="/images/install_professional/media/image15.png" width="600" />
 </p>
 
-5)  로컬서버 사용자 이름 입력 한다.
-
 ### 5.3 설치 페이지 열기
 
-1)  인터넷 창을 열어 localhost:8000 입력한다.
+1)  인터넷 창을 자동으로 열어 localhost:8000 이동한다.
 
 
 ### 5.4 설치 페이지 실행
@@ -364,11 +364,11 @@ share: true
 <p align="center">
 <img src="/images/install_professional/media/image20.png" width="600" />
 
-<img src="/images/install_professional/media/image21.png" width="600" />
-
 <img src="/images/install_professional/media/image22.png" width="600" />
 
 <img src="/images/install_professional/media/image23.png" width="600" />
+
+<img src="/images/install_professional/media/image21.png" width="600" />
 </p>
 
 ## 6. MMS 서버 (=local server) 설치
