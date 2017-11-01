@@ -90,17 +90,28 @@ share: true
 
 ![사진16, 서버 관리](/images/troubleshooting_server/image1.png)
 
-### 3) 데이터베이스 강제종료에 의한 클러스터 장애
-#### 3-1) 데이터베이스 서버 1대만 살아 있을때
+### 3) 클라이언트의 디스크 변경 (Professional & Ultimate)
+
+![사진17, 클라이언트 관리](/images/troubleshooting_server/image18.png)
+
+- 클라이언트 디스크 변경 실패했을때 클라이언트 부팅할수없거나 구버션디스크로 부팅한다.
+- 실패시: 로그페이지에 확인할수있다. <사진 18 - 로그>
+
+![사진18, 클라이언트 관리](/images/troubleshooting_server/image19.png)
+
+- 해결방법: 클라이언트 업데이트하면 이문제을 해결할수있다.
+
+### 4) 데이터베이스 강제종료에 의한 클러스터 장애
+#### 4-1) 데이터베이스 서버 1대만 살아 있을때
 
 - 강제 종료된 컴퓨터를 부팅 하시면 됩니다.
 
-![사진17, 클러스터 서버가 1대 만 살아 있고 나머지 다 강제종료가 되었을 때 생기는 문제](/images/troubleshooting_server/image16.png)
+![사진19, 클러스터 서버가 1대 만 살아 있고 나머지 다 강제종료가 되었을 때 생기는 문제](/images/troubleshooting_server/image16.png)
 
-#### 3-2) 데이터베이스 서버 모두다  강제 종료로 생기는 문제
+#### 4-2) 데이터베이스 서버 모두다  강제 종료로 생기는 문제
 - 한 개의 서버 선택 하여 다음 명령어실행
 - vi /var/lib/mysql/grastate.dat
 - safe_to_bootstrap: 1로 변경 한다.
 - 나머지 서버를 재 시작 한다.
 
-![사진18, 모든 클러스터 서버가 강제종료로 생긴 문제](/images/troubleshooting_server/image17.png)
+![사진120, 모든 클러스터 서버가 강제종료로 생긴 문제](/images/troubleshooting_server/image17.png)
