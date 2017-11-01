@@ -94,7 +94,7 @@ share: true
 
 ![사진17, 클라이언트 관리](/images/troubleshooting_server/image18.png)
 
-- 클라이언트 디스크 변경 실패했을때 클라이언트 부팅할수없거나 구버션디스크로 부팅한다.
+- 클라이언트 디스크 변경 실패했을때 클라이언트 부팅할수없거나 구버션디스크로 부팅된다.
 - 실패시: 로그페이지에 확인할수있다. <사진 18 - 로그>
 
 ![사진18, 클라이언트 관리](/images/troubleshooting_server/image19.png)
