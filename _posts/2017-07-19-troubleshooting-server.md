@@ -86,7 +86,7 @@ share: true
 - Localserver -> /etc/network/interface
 - Localserver -> /etc/dhcp/dhcpd.conf
 - Localserver -> /Korearental_Diskless_Admin/Korearental_Diskless_Admin/definition.py  > localServerUrl
-- Dbserver -> mysql diskless_admin/diskless_administrator_server
+- Dbserver -> mysql diskless_admin/administration_servers
 
 ![사진16, 서버 관리](/images/troubleshooting_server/image1.png)
 
